@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BCF77671835ADA2001C408D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF77651835ADA2001C408D /* LoginViewController.m */; };
-		4BCF77681835ADA2001C408D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCF77661835ADA2001C408D /* LoginViewController.xib */; };
+		4BCF776B1835ADE0001C408D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF776A1835ADE0001C408D /* LoginViewController.m */; };
 		8752F2271835AC1E00609E61 /* AppointmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */; };
 		8752F2281835AC1E00609E61 /* AppointmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */; };
 		8752F2291835AC1E00609E61 /* DriverSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F21F1835AC1E00609E61 /* DriverSummaryViewController.m */; };
@@ -45,9 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BCF77641835ADA2001C408D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		4BCF77651835ADA2001C408D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		4BCF77661835ADA2001C408D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4BCF77691835ADE0001C408D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../../LoginViewController.h; sourceTree = "<group>"; };
+		4BCF776A1835ADE0001C408D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../../LoginViewController.m; sourceTree = "<group>"; };
 		8752F21B1835AC1E00609E61 /* AppointmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentsViewController.h; sourceTree = "<group>"; };
 		8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentsViewController.m; sourceTree = "<group>"; };
 		8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentsViewController.xib; sourceTree = "<group>"; };
@@ -110,10 +108,9 @@
 		8752F21A1835AC1E00609E61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4BCF77691835ADE0001C408D /* LoginViewController.h */,
+				4BCF776A1835ADE0001C408D /* LoginViewController.m */,
 				8752F21B1835AC1E00609E61 /* AppointmentsViewController.h */,
-				4BCF77641835ADA2001C408D /* LoginViewController.h */,
-				4BCF77651835ADA2001C408D /* LoginViewController.m */,
-				4BCF77661835ADA2001C408D /* LoginViewController.xib */,
 				8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */,
 				8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */,
 				8752F21E1835AC1E00609E61 /* DriverSummaryViewController.h */,
@@ -282,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCF77681835ADA2001C408D /* LoginViewController.xib in Resources */,
 				8752F2281835AC1E00609E61 /* AppointmentsViewController.xib in Resources */,
 				C67BA04B1835A63E00D0CC34 /* Images.xcassets in Resources */,
 				C67BA03A1835A63D00D0CC34 /* InfoPlist.strings in Resources */,
@@ -313,7 +309,7 @@
 				C67BA03C1835A63D00D0CC34 /* main.m in Sources */,
 				C67BA0491835A63D00D0CC34 /* HCSecondViewController.m in Sources */,
 				8752F22B1835AC1E00609E61 /* MainTabScreen.m in Sources */,
-				4BCF77671835ADA2001C408D /* LoginViewController.m in Sources */,
+				4BCF776B1835ADE0001C408D /* LoginViewController.m in Sources */,
 				C67BA0461835A63D00D0CC34 /* HCFirstViewController.m in Sources */,
 				C67BA0401835A63D00D0CC34 /* HCAppDelegate.m in Sources */,
 				8752F2291835AC1E00609E61 /* DriverSummaryViewController.m in Sources */,
