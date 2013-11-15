@@ -22,6 +22,9 @@
                         <state key="normal" title="Donate">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="donatePressed:" destination="-1" eventType="touchUpInside" id="5qm-fq-Iho"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2K-b7-2Qo">
                         <rect key="frame" x="61" y="252" width="198" height="64"/>
@@ -30,6 +33,9 @@
                         <state key="normal" title="Drive">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="drivePressed:" destination="-1" eventType="touchUpInside" id="g8n-un-des"/>
+                        </connections>
                     </button>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
