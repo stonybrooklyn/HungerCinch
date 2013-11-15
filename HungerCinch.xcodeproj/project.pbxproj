@@ -48,6 +48,8 @@
 		C67BA05C1835A63E00D0CC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C67BA05A1835A63E00D0CC34 /* InfoPlist.strings */; };
 		C67BA05E1835A63E00D0CC34 /* HungerCinchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BA05D1835A63E00D0CC34 /* HungerCinchTests.m */; };
 		C67BA0681835B00700D0CC34 /* DonateDrive.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67BA0671835B00700D0CC34 /* DonateDrive.xib */; };
+		C67BA06A1835B62500D0CC34 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0691835B62500D0CC34 /* Parse.framework */; };
+		C67BA06C1835B77E00D0CC34 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA06B1835B77E00D0CC34 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		C67BA05B1835A63E00D0CC34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C67BA05D1835A63E00D0CC34 /* HungerCinchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HungerCinchTests.m; sourceTree = "<group>"; };
 		C67BA0671835B00700D0CC34 /* DonateDrive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonateDrive.xib; sourceTree = "<group>"; };
+		C67BA0691835B62500D0CC34 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Desktop/Parse.framework; sourceTree = "<group>"; };
+		C67BA06B1835B77E00D0CC34 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67BA06C1835B77E00D0CC34 /* FacebookSDK.framework in Frameworks */,
+				C67BA06A1835B62500D0CC34 /* Parse.framework in Frameworks */,
 				4BCF77891835B11E001C408D /* SystemConfiguration.framework in Frameworks */,
 				4BCF77871835B11A001C408D /* StoreKit.framework in Frameworks */,
 				4BCF77851835B116001C408D /* Security.framework in Frameworks */,
@@ -202,6 +208,8 @@
 		C67BA02E1835A63D00D0CC34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C67BA06B1835B77E00D0CC34 /* FacebookSDK.framework */,
+				C67BA0691835B62500D0CC34 /* Parse.framework */,
 				4BCF77881835B11E001C408D /* SystemConfiguration.framework */,
 				4BCF77861835B11A001C408D /* StoreKit.framework */,
 				4BCF77841835B116001C408D /* Security.framework */,
@@ -513,6 +521,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Erhuang2/HungerCinch,
+					/Users/stonybrooklyn/Desktop,
+					/Users/stonybrooklyn/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HungerCinch/HungerCinch-Prefix.pch";
@@ -530,6 +540,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Erhuang2/HungerCinch,
+					/Users/stonybrooklyn/Desktop,
+					/Users/stonybrooklyn/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HungerCinch/HungerCinch-Prefix.pch";
