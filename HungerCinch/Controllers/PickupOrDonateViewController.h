@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PickupOrDonateViewController : UITableViewController
+@interface PickupOrDonateViewController : UIViewController
 
 @end
