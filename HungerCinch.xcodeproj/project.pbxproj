@@ -16,7 +16,6 @@
 		8752F22B1835AC1E00609E61 /* MainTabScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2221835AC1E00609E61 /* MainTabScreen.m */; };
 		8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2231835AC1E00609E61 /* MainTabScreen.xib */; };
 		8752F22D1835AC1E00609E61 /* PickupOrDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */; };
-		8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */; };
 		C67BA0301835A63D00D0CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA02F1835A63D00D0CC34 /* Foundation.framework */; };
 		C67BA0321835A63D00D0CC34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */; };
 		C67BA0341835A63D00D0CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0331835A63D00D0CC34 /* UIKit.framework */; };
@@ -32,6 +31,7 @@
 		C67BA0541835A63E00D0CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0331835A63D00D0CC34 /* UIKit.framework */; };
 		C67BA05C1835A63E00D0CC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C67BA05A1835A63E00D0CC34 /* InfoPlist.strings */; };
 		C67BA05E1835A63E00D0CC34 /* HungerCinchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BA05D1835A63E00D0CC34 /* HungerCinchTests.m */; };
+		C67BA0681835B00700D0CC34 /* DonateDrive.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67BA0671835B00700D0CC34 /* DonateDrive.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,6 @@
 		8752F2231835AC1E00609E61 /* MainTabScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabScreen.xib; sourceTree = "<group>"; };
 		8752F2241835AC1E00609E61 /* PickupOrDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupOrDonateViewController.h; sourceTree = "<group>"; };
 		8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupOrDonateViewController.m; sourceTree = "<group>"; };
-		8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickupOrDonateViewController.xib; sourceTree = "<group>"; };
 		C67BA02C1835A63D00D0CC34 /* HungerCinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerCinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67BA02F1835A63D00D0CC34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +80,7 @@
 		C67BA0591835A63E00D0CC34 /* HungerCinchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HungerCinchTests-Info.plist"; sourceTree = "<group>"; };
 		C67BA05B1835A63E00D0CC34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C67BA05D1835A63E00D0CC34 /* HungerCinchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HungerCinchTests.m; sourceTree = "<group>"; };
+		C67BA0671835B00700D0CC34 /* DonateDrive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonateDrive.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 				8752F2231835AC1E00609E61 /* MainTabScreen.xib */,
 				8752F2241835AC1E00609E61 /* PickupOrDonateViewController.h */,
 				8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */,
-				8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */,
+				C67BA0671835B00700D0CC34 /* DonateDrive.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -284,11 +284,11 @@
 			files = (
 				4BCF77701835AE13001C408D /* LoginViewController.xib in Resources */,
 				8752F2281835AC1E00609E61 /* AppointmentsViewController.xib in Resources */,
+				C67BA0681835B00700D0CC34 /* DonateDrive.xib in Resources */,
 				C67BA04B1835A63E00D0CC34 /* Images.xcassets in Resources */,
 				C67BA03A1835A63D00D0CC34 /* InfoPlist.strings in Resources */,
 				C67BA0431835A63D00D0CC34 /* Main.storyboard in Resources */,
 				8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */,
-				8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */,
 				8752F22A1835AC1E00609E61 /* DriverSummaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
