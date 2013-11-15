@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>063C64C5-5761-4BB0-BFAD-26CAD6CDF6FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HungerCinch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D78C082-3FD1-4E70-BF95-3EEE4B91D39A</key>
+		<string>https://github.com/stonybrooklyn/HungerCinch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HungerCinch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D78C082-3FD1-4E70-BF95-3EEE4B91D39A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stonybrooklyn/HungerCinch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D78C082-3FD1-4E70-BF95-3EEE4B91D39A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D78C082-3FD1-4E70-BF95-3EEE4B91D39A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HungerCinch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
