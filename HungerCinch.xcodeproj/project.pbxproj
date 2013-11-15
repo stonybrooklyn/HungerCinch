@@ -29,9 +29,10 @@
 		8752F22B1835AC1E00609E61 /* MainTabScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2221835AC1E00609E61 /* MainTabScreen.m */; };
 		8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2231835AC1E00609E61 /* MainTabScreen.xib */; };
 		8752F22D1835AC1E00609E61 /* PickupOrDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */; };
-		8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */; };
 		8752F2321835AF7B00609E61 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2301835AF7B00609E61 /* MainTabViewController.m */; };
 		8752F2331835AF7B00609E61 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2311835AF7B00609E61 /* MainTabViewController.xib */; };
+		8752F2351835B69200609E61 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752F2341835B69200609E61 /* Parse.framework */; };
+		8752F2371835B70000609E61 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752F2361835B70000609E61 /* FacebookSDK.framework */; };
 		C67BA0301835A63D00D0CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA02F1835A63D00D0CC34 /* Foundation.framework */; };
 		C67BA0321835A63D00D0CC34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */; };
 		C67BA0341835A63D00D0CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0331835A63D00D0CC34 /* UIKit.framework */; };
@@ -89,10 +90,11 @@
 		8752F2231835AC1E00609E61 /* MainTabScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabScreen.xib; sourceTree = "<group>"; };
 		8752F2241835AC1E00609E61 /* PickupOrDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupOrDonateViewController.h; sourceTree = "<group>"; };
 		8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupOrDonateViewController.m; sourceTree = "<group>"; };
-		8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickupOrDonateViewController.xib; sourceTree = "<group>"; };
 		8752F22F1835AF7B00609E61 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
 		8752F2301835AF7B00609E61 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
 		8752F2311835AF7B00609E61 /* MainTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		8752F2341835B69200609E61 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Desktop/Parse.framework; sourceTree = "<group>"; };
+		8752F2361835B70000609E61 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		C67BA02C1835A63D00D0CC34 /* HungerCinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerCinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67BA02F1835A63D00D0CC34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8752F2371835B70000609E61 /* FacebookSDK.framework in Frameworks */,
+				8752F2351835B69200609E61 /* Parse.framework in Frameworks */,
 				4BCF77891835B11E001C408D /* SystemConfiguration.framework in Frameworks */,
 				4BCF77871835B11A001C408D /* StoreKit.framework in Frameworks */,
 				4BCF77851835B116001C408D /* Security.framework in Frameworks */,
@@ -202,6 +206,8 @@
 		C67BA02E1835A63D00D0CC34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8752F2361835B70000609E61 /* FacebookSDK.framework */,
+				8752F2341835B69200609E61 /* Parse.framework */,
 				4BCF77881835B11E001C408D /* SystemConfiguration.framework */,
 				4BCF77861835B11A001C408D /* StoreKit.framework */,
 				4BCF77841835B116001C408D /* Security.framework */,
@@ -353,7 +359,6 @@
 				8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */,
 				8752F2331835AF7B00609E61 /* MainTabViewController.xib in Resources */,
 				4BCF77721835AE68001C408D /* 851579_604690072906757_1648100996_n.png in Resources */,
-				8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */,
 				8752F22A1835AC1E00609E61 /* DriverSummaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +517,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Erhuang2/HungerCinch,
+					.,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HungerCinch/HungerCinch-Prefix.pch";
@@ -529,7 +534,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Erhuang2/HungerCinch,
+					.,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HungerCinch/HungerCinch-Prefix.pch";
