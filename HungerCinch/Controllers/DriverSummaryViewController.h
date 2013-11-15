@@ -10,4 +10,5 @@
 
 @interface DriverSummaryViewController : UITableViewController
 
+@property (nonatomic,strong) NSMutableArray *chosenItems;
 @end

@@ -16,17 +16,19 @@
 {
     // Override point for customization after application launch.
 		
-	self.tabBarController = [[UITabBarController alloc]init];
-	self.window.rootViewController = self.tabBarController;
-	
-	self.appointmentsController = [[AppointmentsViewController alloc]initWithNibName:nil bundle:nil];
-	self.appointmentsController.title = @"A";
-	self.pickupOrDonateController = [[PickupOrDonateViewController alloc]initWithNibName:nil bundle:nil];
-	self.pickupOrDonateController.title = @"B";
-	
-	self.tabBarController.viewControllers = @[ self.appointmentsController, self.pickupOrDonateController ];
-	
-	[self.window makeKeyAndVisible];
+//	self.tabBarController = [[UITabBarController alloc]init];
+//	self.window.rootViewController = self.tabBarController;
+//	
+//	self.pickupOrDonateController = [[PickupOrDonateViewController alloc]initWithNibName:@"DonateDrive" bundle:nil];
+//	//self.pickupOrDonateController = [[PickupOrDonateViewController alloc]initWithNibName:@"DonateDrive" bundle:nil];
+//	self.pickupOrDonateController.title = @"B";
+//	
+//	self.appointmentsController = [[AppointmentsViewController alloc]initWithNibName:nil bundle:nil];
+//	self.appointmentsController.title = @"A";
+//	
+//	self.tabBarController.viewControllers = @[ self.pickupOrDonateController, self.appointmentsController ];
+//	
+//	[self.window makeKeyAndVisible];
     return YES;
 }
 							

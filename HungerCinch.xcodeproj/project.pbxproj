@@ -33,6 +33,7 @@
 		8752F2331835AF7B00609E61 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2311835AF7B00609E61 /* MainTabViewController.xib */; };
 		8752F2351835B69200609E61 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752F2341835B69200609E61 /* Parse.framework */; };
 		8752F2371835B70000609E61 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752F2361835B70000609E61 /* FacebookSDK.framework */; };
+		8752F23F1835C2A000609E61 /* David.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8752F23E1835C2A000609E61 /* David.storyboard */; };
 		C67BA0301835A63D00D0CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA02F1835A63D00D0CC34 /* Foundation.framework */; };
 		C67BA0321835A63D00D0CC34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */; };
 		C67BA0341835A63D00D0CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0331835A63D00D0CC34 /* UIKit.framework */; };
@@ -49,8 +50,6 @@
 		C67BA05C1835A63E00D0CC34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C67BA05A1835A63E00D0CC34 /* InfoPlist.strings */; };
 		C67BA05E1835A63E00D0CC34 /* HungerCinchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BA05D1835A63E00D0CC34 /* HungerCinchTests.m */; };
 		C67BA0681835B00700D0CC34 /* DonateDrive.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67BA0671835B00700D0CC34 /* DonateDrive.xib */; };
-		C67BA06A1835B62500D0CC34 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0691835B62500D0CC34 /* Parse.framework */; };
-		C67BA06C1835B77E00D0CC34 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA06B1835B77E00D0CC34 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +96,7 @@
 		8752F2311835AF7B00609E61 /* MainTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
 		8752F2341835B69200609E61 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Desktop/Parse.framework; sourceTree = "<group>"; };
 		8752F2361835B70000609E61 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8752F23E1835C2A000609E61 /* David.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = David.storyboard; sourceTree = "<group>"; };
 		C67BA02C1835A63D00D0CC34 /* HungerCinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerCinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67BA02F1835A63D00D0CC34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -236,6 +236,7 @@
 			children = (
 				C67BA03E1835A63D00D0CC34 /* HCAppDelegate.h */,
 				C67BA03F1835A63D00D0CC34 /* HCAppDelegate.m */,
+				8752F23E1835C2A000609E61 /* David.storyboard */,
 				C67BA0411835A63D00D0CC34 /* Main.storyboard */,
 				8752F21A1835AC1E00609E61 /* Controllers */,
 				C67BA0441835A63D00D0CC34 /* HCFirstViewController.h */,
@@ -356,6 +357,7 @@
 			files = (
 				4BCF77701835AE13001C408D /* LoginViewController.xib in Resources */,
 				8752F2281835AC1E00609E61 /* AppointmentsViewController.xib in Resources */,
+				8752F23F1835C2A000609E61 /* David.storyboard in Resources */,
 				C67BA0681835B00700D0CC34 /* DonateDrive.xib in Resources */,
 				C67BA04B1835A63E00D0CC34 /* Images.xcassets in Resources */,
 				C67BA03A1835A63D00D0CC34 /* InfoPlist.strings in Resources */,
