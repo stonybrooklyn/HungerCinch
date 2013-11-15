@@ -7,12 +7,26 @@
 //
 
 #import "HCAppDelegate.h"
+#import "AppointmentsViewController.h"
+#import "PickupOrDonateViewController.h"
 
 @implementation HCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+		
+	self.tabBarController = [[UITabBarController alloc]init];
+	self.window.rootViewController = self.tabBarController;
+	
+	self.appointmentsController = [[AppointmentsViewController alloc]initWithNibName:nil bundle:nil];
+	self.appointmentsController.title = @"A";
+	self.pickupOrDonateController = [[PickupOrDonateViewController alloc]initWithNibName:nil bundle:nil];
+	self.pickupOrDonateController.title = @"B";
+	
+	self.tabBarController.viewControllers = @[ self.appointmentsController, self.pickupOrDonateController ];
+	
+	[self.window makeKeyAndVisible];
     return YES;
 }
 							

@@ -15,6 +15,8 @@
 		8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2231835AC1E00609E61 /* MainTabScreen.xib */; };
 		8752F22D1835AC1E00609E61 /* PickupOrDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */; };
 		8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */; };
+		8752F2321835AF7B00609E61 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F2301835AF7B00609E61 /* MainTabViewController.m */; };
+		8752F2331835AF7B00609E61 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F2311835AF7B00609E61 /* MainTabViewController.xib */; };
 		C67BA0301835A63D00D0CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA02F1835A63D00D0CC34 /* Foundation.framework */; };
 		C67BA0321835A63D00D0CC34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */; };
 		C67BA0341835A63D00D0CC34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BA0331835A63D00D0CC34 /* UIKit.framework */; };
@@ -55,6 +57,9 @@
 		8752F2241835AC1E00609E61 /* PickupOrDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickupOrDonateViewController.h; sourceTree = "<group>"; };
 		8752F2251835AC1E00609E61 /* PickupOrDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickupOrDonateViewController.m; sourceTree = "<group>"; };
 		8752F2261835AC1E00609E61 /* PickupOrDonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickupOrDonateViewController.xib; sourceTree = "<group>"; };
+		8752F22F1835AF7B00609E61 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		8752F2301835AF7B00609E61 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		8752F2311835AF7B00609E61 /* MainTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
 		C67BA02C1835A63D00D0CC34 /* HungerCinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerCinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67BA02F1835A63D00D0CC34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C67BA0311835A63D00D0CC34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,6 +110,9 @@
 		8752F21A1835AC1E00609E61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8752F22F1835AF7B00609E61 /* MainTabViewController.h */,
+				8752F2301835AF7B00609E61 /* MainTabViewController.m */,
+				8752F2311835AF7B00609E61 /* MainTabViewController.xib */,
 				8752F21B1835AC1E00609E61 /* AppointmentsViewController.h */,
 				8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */,
 				8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */,
@@ -279,6 +287,7 @@
 				C67BA03A1835A63D00D0CC34 /* InfoPlist.strings in Resources */,
 				C67BA0431835A63D00D0CC34 /* Main.storyboard in Resources */,
 				8752F22C1835AC1E00609E61 /* MainTabScreen.xib in Resources */,
+				8752F2331835AF7B00609E61 /* MainTabViewController.xib in Resources */,
 				8752F22E1835AC1E00609E61 /* PickupOrDonateViewController.xib in Resources */,
 				8752F22A1835AC1E00609E61 /* DriverSummaryViewController.xib in Resources */,
 			);
@@ -300,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8752F22D1835AC1E00609E61 /* PickupOrDonateViewController.m in Sources */,
+				8752F2321835AF7B00609E61 /* MainTabViewController.m in Sources */,
 				8752F2271835AC1E00609E61 /* AppointmentsViewController.m in Sources */,
 				C67BA03C1835A63D00D0CC34 /* main.m in Sources */,
 				C67BA0491835A63D00D0CC34 /* HCSecondViewController.m in Sources */,
