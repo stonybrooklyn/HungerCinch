@@ -21,6 +21,7 @@
 		4BCF77851835B116001C408D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCF77841835B116001C408D /* Security.framework */; };
 		4BCF77871835B11A001C408D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCF77861835B11A001C408D /* StoreKit.framework */; };
 		4BCF77891835B11E001C408D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCF77881835B11E001C408D /* SystemConfiguration.framework */; };
+		4BCF77961835B2BE001C408D /* DonateFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF77951835B2BE001C408D /* DonateFormViewController.m */; };
 		8752F2271835AC1E00609E61 /* AppointmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */; };
 		8752F2281835AC1E00609E61 /* AppointmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */; };
 		8752F2291835AC1E00609E61 /* DriverSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752F21F1835AC1E00609E61 /* DriverSummaryViewController.m */; };
@@ -72,6 +73,8 @@
 		4BCF77841835B116001C408D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4BCF77861835B11A001C408D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4BCF77881835B11E001C408D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4BCF77941835B2BE001C408D /* DonateFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DonateFormViewController.h; path = ../../DonateFormViewController.h; sourceTree = "<group>"; };
+		4BCF77951835B2BE001C408D /* DonateFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonateFormViewController.m; path = ../../DonateFormViewController.m; sourceTree = "<group>"; };
 		8752F21B1835AC1E00609E61 /* AppointmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentsViewController.h; sourceTree = "<group>"; };
 		8752F21C1835AC1E00609E61 /* AppointmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentsViewController.m; sourceTree = "<group>"; };
 		8752F21D1835AC1E00609E61 /* AppointmentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentsViewController.xib; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				8752F21E1835AC1E00609E61 /* DriverSummaryViewController.h */,
 				8752F21F1835AC1E00609E61 /* DriverSummaryViewController.m */,
 				8752F2201835AC1E00609E61 /* DriverSummaryViewController.xib */,
+				4BCF77941835B2BE001C408D /* DonateFormViewController.h */,
+				4BCF77951835B2BE001C408D /* DonateFormViewController.m */,
 				8752F2211835AC1E00609E61 /* MainTabScreen.h */,
 				8752F2221835AC1E00609E61 /* MainTabScreen.m */,
 				8752F2231835AC1E00609E61 /* MainTabScreen.xib */,
@@ -357,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8752F22D1835AC1E00609E61 /* PickupOrDonateViewController.m in Sources */,
+				4BCF77961835B2BE001C408D /* DonateFormViewController.m in Sources */,
 				8752F2271835AC1E00609E61 /* AppointmentsViewController.m in Sources */,
 				C67BA03C1835A63D00D0CC34 /* main.m in Sources */,
 				C67BA0491835A63D00D0CC34 /* HCSecondViewController.m in Sources */,
